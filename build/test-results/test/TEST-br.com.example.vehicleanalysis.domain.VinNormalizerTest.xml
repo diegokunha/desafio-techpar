@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.example.vehicleanalysis.domain.VinNormalizerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-11-07T19:30:46" hostname="NB-DIEGOKUNHA" time="0.06">
+  <properties/>
+  <testcase name="normalize_plate_to_vin_stub()" classname="br.com.example.vehicleanalysis.domain.VinNormalizerTest" time="0.044"/>
+  <testcase name="normalize_vin_if_17_chars()" classname="br.com.example.vehicleanalysis.domain.VinNormalizerTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
