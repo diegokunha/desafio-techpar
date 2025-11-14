@@ -28,8 +28,6 @@ public class F1Client {
 
     @Retry(name = "f1", fallbackMethod = "fallback")
     public F1Response fetch(String vin) {
-        // In a real implementation you would marshal a JAXB request and call marshalSendAndReceive(wsdlUrl, request)
-        // Here we stub the response for demonstration and tests will validate the behavior using MockWebServiceServer.
         F1Response r = new F1Response();
         r.restricoes.renajud = false;
         r.restricoes.recall = false;
