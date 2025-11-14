@@ -74,7 +74,6 @@ public class Orchestrator {
 
         VehicleAnalysisResponse response = SupplierMappers.map(vin, f1Resp, f2Resp, f3Resp);
 
-        // persist log (simplified)
         repo.saveLog(UUID.randomUUID().toString(), Instant.now().toString(), idInput, vin, response);
 
         long elapsed = System.currentTimeMillis() - start;
